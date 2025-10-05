@@ -8,9 +8,9 @@ Built using Apollo.io, Zapier, Google Sheets, Gmail, and Calendly, these automat
 ## Automations Included
 
 1.	Calendly → Welcome Prep Email
-2.	Health Score Alert System
+2.	New Demo Request → Automated Email Sequence
 3.	New Client → Welcome Email & Onboarding Guide
-4.	30-Day Renewal Reminder
+4.	Closed Handoff
 
 ### Skills Learned
 
@@ -40,3 +40,36 @@ Built using Apollo.io, Zapier, Google Sheets, Gmail, and Calendly, these automat
 ## All Automations I actually created in my current role but cannot show/use the data of current employer
 
 ## Steps
+
+The first automation is going to be a calendly Welcome/Prep email, this is going to send the prospect a thank you email and let them know what come prepared with, a reminder of when and as well some meeting info so they do not loose it to ensure they show up to the meeting
+
+<img width="787" height="538" alt="Screenshot 2025-10-05 at 1 22 55 PM" src="https://github.com/user-attachments/assets/09263e23-1caf-46c9-80e3-4bc294b46371" />
+
+---------------------------------------------------------------------------------------------------
+
+Triggered by a new Calendly or Typeform demo request, this automation sends a confirmation email, logs the lead in the CRM, and schedules a follow-up sequence if no response is received.
+	- Impact: Improved response and show-up rates through immediate engagement; maintained CRM hygiene automatically.
+
+<img width="447" height="811" alt="Screenshot 2025-10-05 at 1 25 12 PM" src="https://github.com/user-attachments/assets/e6961195-4d95-4f34-9aee-291c882d3f72" />
+
+
+---------------------------------------------------------------------------------------------------
+
+Closed-Won → Sales-to-CS Handoff Workflow
+
+When a deal is marked Closed-Won in the CRM, the system:
+	- Sends a Slack alert to the Customer Success team with account details
+	- Sends a client onboarding email with resources and next steps
+	- Creates a handoff task in Notion or ClickUp
+	- Updates CRM status to “Handoff Initiated”
+	- Impact: Ensured 100% of new clients receive onboarding within 24 hours; eliminated manual handoff errors.
+
+<img width="588" height="803" alt="Screenshot 2025-10-05 at 1 26 35 PM" src="https://github.com/user-attachments/assets/445d8ae8-e4c5-4b57-8dcb-f4a06b6f2b16" />
+
+---------------------------------------------------------------------------------------------------
+
+The last is a new proespecting drip email this will start off the drip campaign when a new prospect is added to our CRM 
+
+<img width="510" height="395" alt="Screenshot 2025-10-05 at 1 28 10 PM" src="https://github.com/user-attachments/assets/bd086e8e-aa6f-4767-b0e8-b5afb2423e17" />
+
+---------------------------------------------------------------------------------------------------
